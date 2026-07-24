@@ -2,3 +2,15 @@ baseURL = 'https://notshared.org/'
 locale = 'en-us'
 title = 'Not Shared'
 theme = "github.com/imfing/hextra"
+defaultContentLanguage = 'en'
+
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+author = "authors"
