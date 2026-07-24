@@ -2,6 +2,8 @@ displayUpdatedDate = true
 
 externalLinkDecoration = true
 
+[navbar]
+width = "wide"
 [navbar.logo]
 path = "images/logo.svg"
 width = 35
@@ -17,3 +19,7 @@ displayTags = true
 enable = true
 displayCopyright = true
 displayPoweredBy = false
+width = "wide"
+
+[page]
+width = "wide"
