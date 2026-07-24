@@ -1,0 +1,19 @@
+displayUpdatedDate = true
+
+externalLinkDecoration = true
+
+[navbar.logo]
+path = "images/logo.svg"
+width = 50
+height = 50
+
+[blog]
+list.displayTags = true
+
+[toc]
+displayTags = true
+
+[footer]
+enable = true
+displayCopyright = true
+displayPoweredBy = false
