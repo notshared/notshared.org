@@ -13,7 +13,6 @@ weight = 2
 
 [[ main ]]
 name = "Search"
-pageRef = "/search"
 weight = 10
 params.type = "search"
 
@@ -33,10 +32,3 @@ identifier = "about"
 name = "About"
 pageRef = "/about"
 weight = 30
-
-# Sidebar
-[[ sidebar ]]
-identifier = "source-code"
-name = "Source Code"
-url = "https://codeberg.org/notshared/notshared.org"
-weight = 1
