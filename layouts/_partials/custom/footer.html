@@ -1,0 +1,5 @@
+<div class="hx:font-semibold hx:flex hx:justify-end">
+    {{ with site.GetPage "/impressum" }}
+        <a class="hx:cursor-pointer hx:text-sm" title="{{ i18n "impressum" }}" href="{{ .RelPermalink }}">{{ i18n "impressum" }}</a>
+    {{ end }}
+</div>
