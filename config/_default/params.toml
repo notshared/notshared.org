@@ -9,8 +9,8 @@ path = "images/logo.svg"
 width = 35
 height = 35
 
-[blog]
-list.displayTags = true
+[blog.list]
+displayTags = true
 
 [toc]
 displayTags = true
