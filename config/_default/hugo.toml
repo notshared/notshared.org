@@ -14,3 +14,24 @@ buildFuture = false
 tag = "tags"
 category = "categories"
 author = "authors"
+
+[privacy]
+[privacy.disqus]
+disable = true
+[privacy.googleAnalytics]
+disable = true
+respectDoNotTrack = true
+[privacy.instagram]
+disable = true
+simple = true
+[privacy.vimeo]
+disable = true
+enableDNT = true
+simple = true
+[privacy.x]
+disable = true
+enableDNT = true
+simple = true
+[privacy.youTube]
+disable = true
+privacyEnhanced = true
