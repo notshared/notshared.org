@@ -1,0 +1,6 @@
+:root {
+  --primary-hue: 213deg;
+  --primary-saturation: 76%;
+  --primary-lightness: 55%;
+  --hx-color-dark: oklch(21% 0.006 285.885); /* --color-zinc-900 */
+}
