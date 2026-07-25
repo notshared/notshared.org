@@ -1,4 +1,7 @@
-<div class="hx:font-semibold hx:flex hx:justify-end">
+<div class="hx:font-semibold hx:flex hx:justify-end hx:gap-2">
+    {{ with site.GetPage "/privacy-policy" }}
+        <a class="hx:cursor-pointer hx:text-sm" title="{{ i18n "privacy-policy" }}" href="{{ .RelPermalink }}">{{ i18n "privacy-policy" }}</a>
+    {{ end }}
     {{ with site.GetPage "/impressum" }}
         <a class="hx:cursor-pointer hx:text-sm" title="{{ i18n "impressum" }}" href="{{ .RelPermalink }}">{{ i18n "impressum" }}</a>
     {{ end }}
