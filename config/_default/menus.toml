@@ -12,6 +12,24 @@ pageRef = "/reports"
 weight = 2
 
 [[ main ]]
+identifier = "gallery"
+name = "Gallery"
+pageRef = "/gallery"
+weight = 3
+[[ main ]]
+identifier = "gallery-posters"
+parent = "gallery"
+name = "Posters"
+pageRef = "/gallery/posters"
+weight = 1
+[[ main ]]
+identifier = "gallery-stickers"
+parent = "gallery"
+name = "Stickers"
+pageRef = "/gallery/stickers"
+weight = 2
+
+[[ main ]]
 name = "Search"
 weight = 10
 params.type = "search"

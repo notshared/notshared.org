@@ -2,7 +2,9 @@
 guides = "Datenschutz Guides"
 reports = "Berichte"
 about = "Über Uns"
-source-code = "Quellcode"
+gallery = "Gallerie"
+gallery-posters = "Poster"
+gallery-stickers = "Sticker"
 
 # Theme
 copyright = "© 2026 Leopold Meinel"
