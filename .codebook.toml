@@ -1,0 +1,5 @@
+dictionaries = ["en_us"]
+
+[[ overrides ]]
+paths = ["**/*.de.md", "**/*.de.toml"]
+dictionaries = ["de"]
