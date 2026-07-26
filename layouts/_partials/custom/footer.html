@@ -1,8 +1,8 @@
-<div class="hx:font-semibold hx:flex hx:justify-end hx:gap-2">
+<div class="hx:font-semibold hx:flex hx:justify-end hx:gap-4">
     {{ with site.GetPage "/privacy-policy" }}
-        <a class="hx:cursor-pointer hx:text-sm" title="{{ i18n "privacy-policy" }}" href="{{ .RelPermalink }}">{{ i18n "privacy-policy" }}</a>
+        <a class="hx:cursor-pointer hx:text-sm hx:hover:opacity-75 hx:mt-6" title="{{ i18n "privacy-policy" }}" href="{{ .RelPermalink }}">{{ i18n "privacy-policy" }}</a>
     {{ end }}
     {{ with site.GetPage "/impressum" }}
-        <a class="hx:cursor-pointer hx:text-sm" title="{{ i18n "impressum" }}" href="{{ .RelPermalink }}">{{ i18n "impressum" }}</a>
+        <a class="hx:cursor-pointer hx:text-sm hx:hover:opacity-75 hx:mt-6" title="{{ i18n "impressum" }}" href="{{ .RelPermalink }}">{{ i18n "impressum" }}</a>
     {{ end }}
 </div>
