@@ -14,7 +14,7 @@ if [[ ! -f "${INPUT}" ]]; then
 fi
 OUTPUT_DIR="${SCRIPT_DIR}"/../static
 ## These will be exported as png
-SIZES=(180 192 512)
+SIZES=(16 32 180 192 512)
 ## These will be included in .ico
 SIZES_ICO="16,32,48"
 
@@ -22,13 +22,13 @@ SIZES_ICO="16,32,48"
 mkdir -p "${OUTPUT_DIR}"
 for size in "${SIZES[@]}"; do
     if [[ "${size}" -eq 512 ]] || [[ "${size}" -eq 192 ]]; then
-        FILES+=("${OUTPUT_DIR}"/icon-"${size}".png)
+        FILES+=("${OUTPUT_DIR}"/android-chrome-"${size}"x"${size}".png)
         continue
-    fi
-    if [[ "${size}" -eq 180 ]]; then
+    elif [[ "${size}" -eq 180 ]]; then
         FILES+=("${OUTPUT_DIR}"/apple-touch-icon.png)
         continue
     fi
+    FILES+=("${OUTPUT_DIR}"/favicon-"${size}"x"${size}".png)
 done
 
 # Convert images with inkscape and compress
@@ -39,9 +39,8 @@ for ((i = 0; i < SIZES_LENGTH; i++)); do
     inkscape "${INPUT}" -h "${size}" -w "${size}" -o "${output}"
     if [[ "${size}" -eq 180 ]]; then
         magick "${output}" -background white -gravity center -resize "160x160" -extent "${size}x${size}" "${output}"
-    fi
-    if [[ "${size}" -eq 512 ]]; then
-        output_maskable="${OUTPUT_DIR}"/icon-"${size}"-maskable.png
+    elif [[ "${size}" -eq 512 ]]; then
+        output_maskable="${OUTPUT_DIR}"/android-chrome-"${size}"x"${size}"-maskable.png
         magick "${output}" -background none -gravity center -resize "409x409" -extent "${size}x${size}" "${output_maskable}"
         oxipng -a -s -o 4 "${output_maskable}"
     fi
