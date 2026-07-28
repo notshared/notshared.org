@@ -16,23 +16,23 @@ rm -rf ./public
 hugo build --gc --minify
 ## Add gzip compressed files for `gzip_static`
 find ./public -type f \( \
-    -iname '*.html' -o \
-    -iname '*.txt' -o \
-    -iname '*.css' -o \
-    -iname '*.xml' -o \
-    -iname '*.js' -o \
-    -iname '*.mjs' -o \
-    -iname '*.json' -o \
-    -iname '*.wasm' -o \
-    -iname '*.rss' -o \
     -iname '*.atom' -o \
+    -iname '*.css' -o \
     -iname '*.eot' -o \
-    -iname '*.ttf' -o \
+    -iname '*.html' -o \
+    -iname '*.ico' -o \
+    -iname '*.js' -o \
+    -iname '*.json' -o \
+    -iname '*.mjs' -o \
     -iname '*.otf' -o \
+    -iname '*.rss' -o \
+    -iname '*.svg' -o \
+    -iname '*.ttf' -o \
+    -iname '*.txt' -o \
+    -iname '*.wasm' -o \
     -iname '*.woff' -o \
     -iname '*.woff2' -o \
-    -iname '*.svg' -o \
-    -iname '*.ico' \
+    -iname '*.xml' \
 \) -exec gzip -9 -knf {} +;
 
 # Deploy site
