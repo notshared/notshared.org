@@ -4,6 +4,12 @@ draft = false
 title = 'Privacy Policy'
 +++
 
+{{< callout type="warning" >}}
+
+This page contains links to external websites that could track you.
+
+{{< /callout >}}
+
 {{< callout type="important" >}}
 
 This privacy policy uses extracts from:

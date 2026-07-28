@@ -4,6 +4,12 @@ draft = false
 title = 'Datenschutzerklärung'
 +++
 
+{{< callout type="warning" >}}
+
+Diese Seite enthält Links zu externen Internetseiten, welche Sie tracken könnten.
+
+{{< /callout >}}
+
 {{< callout type="important" >}}
 
 Diese Datenschutzerklärung nutzt Textpassagen aus:
