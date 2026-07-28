@@ -17,7 +17,7 @@ This privacy policy uses extracts from:
 
 ## Name and address of the controller
 
-The controller in terms of the GDPR and the new Federal Data Protection Act (BDSG) is the
+The controller in terms of the GDPR and the new Federal Data Protection Act (BDSG) is
 
 REPLACE_ME_COMPANY_NAME  
 Leopold Johannes Meinel  
