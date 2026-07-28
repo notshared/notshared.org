@@ -37,15 +37,16 @@ Your personal data will be erased or blocked, as soon as the purpose for which i
 
 ### Description and scope of data processing {class="no-step-marker"}
 
-Each time our website is accessed, our system automatically collects data and information from the computer system of the computer accessing it. The following data is logged:
+{{< callout type="info" >}}
 
-- information about the browser type and version used
-- the user’s operating system
+We don't use [access logs](https://nginx.org/en/docs/http/ngx_http_log_module.html#access_log) which reduces the amount of data we collect each time our website is accessed.
+
+{{< /callout >}}
+
+Each time our website is accessed, our system automatically collects data and information from the computer system of the computer accessing it. Depending on the event, the following data is logged:
+
 - the user’s IP address
 - date and time of access including the URL accessed, HTTP method used and status code returned, along with the amount of data transmitted
-- HTTP origin request header sent by the client
-- websites from which the user’s system accesses our website
-  - saved as referrer
 
 ### Legal basis for data processing {class="no-step-marker"}
 
@@ -55,11 +56,11 @@ The legal basis for the temporary storage of data and log files is Art. 6(1)(e) 
 
 Temporary storage of the IP address by the system is necessary for the website to be delivered to the user’s computer. For this purpose, the user’s IP address must remain stored for the duration of the session.
 
-The IP is stored on the delivery servers for a maximum of 90 days, serving to secure operations and provide protection against attacks (e.g. DDOS).
+The IP is stored on the delivery servers for a maximum of two days, serving to secure operations and provide protection against attacks (e.g. DDOS).
 
 ### Duration of storage {class="no-step-marker"}
 
-The log files are stored centrally and deleted after a maximum of 90 days.
+The log files are stored centrally and deleted after a maximum of two days.
 
 ### Right to object and deletion {class="no-step-marker"}
 
