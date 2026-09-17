@@ -2,6 +2,8 @@
 date = '2026-07-25T14:25:53+02:00'
 draft = false
 title = 'Datenschutzerklärung'
+description = ''
+summary = ''
 +++
 
 {{< callout type="warning" >}}

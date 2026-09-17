@@ -2,6 +2,8 @@
 date = '{{ .Date }}'
 draft = true
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+description = ''
+summary = ''
 [build]
 list = 'local'
 publishResources = false

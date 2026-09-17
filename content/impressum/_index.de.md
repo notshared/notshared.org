@@ -2,6 +2,8 @@
 date = '2026-07-24T23:18:20+02:00'
 draft = false
 title = 'Impressum'
+description = ''
+summary = ''
 +++
 
 {{% steps %}}

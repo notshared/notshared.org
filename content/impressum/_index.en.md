@@ -2,6 +2,8 @@
 date = '2026-07-24T23:18:23+02:00'
 draft = false
 title = 'Legal Notice'
+description = ''
+summary = ''
 +++
 
 {{% steps %}}

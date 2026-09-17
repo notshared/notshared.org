@@ -2,6 +2,8 @@
 date = '2026-07-25T20:47:37+02:00'
 draft = false
 title = 'Stickers'
+description = ''
+summary = ''
 +++
 
 <!-- TODO: Add links to relevant guides/issues to each sticker-->
