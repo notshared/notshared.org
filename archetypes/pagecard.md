@@ -12,6 +12,6 @@ render = 'never'
 exclude = true
 hide = true
 [params.card]
-link = "https://example.com"
-image = "https://placehold.co/800x200"
+link = 'https://example.com'
+image = 'https://placehold.co/800x200'
 +++
