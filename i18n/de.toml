@@ -1,6 +1,8 @@
 # Menus
 guides = "Guides"
-reports = "Berichte"
+issues = "Probleme"
+issues-free-speech = "Meinungsfreiheit"
+issues-privacy = "Privatsphäre"
 about = "Über Uns"
 gallery = "Galerie"
 gallery-posters = "Poster"

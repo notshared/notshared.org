@@ -4,7 +4,7 @@ draft = false
 title = 'Sticker'
 +++
 
-<!-- TODO: Add links to relevant guides/reports to each sticker-->
+<!-- TODO: Add links to relevant guides/issues to each sticker-->
 
 {{< cards >}}
     {{< card title="Dummy" image="sticker-60.webp" subtitle="60mm (round)" >}}

@@ -6,9 +6,21 @@ pageRef = "/guides"
 weight = 1
 
 [[ main ]]
-identifier = "reports"
-name = "Reports"
-pageRef = "/reports"
+identifier = "issues"
+name = "Issues"
+pageRef = "/issues"
+weight = 2
+[[ main ]]
+identifier = "issues-privacy"
+parent = "issues"
+name = "Privacy"
+pageRef = "/issues/privacy"
+weight = 1
+[[ main ]]
+identifier = "issues-free-speech"
+parent = "issues"
+name = "Free Speech"
+pageRef = "/issues/free-speech"
 weight = 2
 
 [[ main ]]

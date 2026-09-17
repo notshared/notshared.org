@@ -1,0 +1,21 @@
+{{- with .Page -}}
+    {{- range .Pages.ByPublishDate.Reverse -}}
+        {{- partial "shortcodes/card" (dict
+        "page"        .
+        "link"        (or .Params.card.link .RelPermalink)
+        "title"       .LinkTitle
+        "icon"        ""
+        "subtitle"    .Description
+        "image"       .Params.card.image
+        "alt"         ""
+        "width"       0
+        "height"      0
+        "imageStyle"  ""
+        "tag"         .Params.card.tag
+        "tagType"     .Params.card.tagType
+        "tagBorder"   ""
+        "tagIcon"     ""
+        )
+        -}}
+    {{- end -}}
+{{- end -}}
