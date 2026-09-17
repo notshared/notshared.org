@@ -1,7 +1,7 @@
 # Main
 [[ main ]]
 identifier = "guides"
-name = "Privacy Guides"
+name = "Guides"
 pageRef = "/guides"
 weight = 1
 
