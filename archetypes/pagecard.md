@@ -13,5 +13,5 @@ exclude = true
 hide = true
 [params.card]
 link = 'https://example.com'
-image = 'https://placehold.co/800x200'
+image = '/images/placeholders/800x200.svg'
 +++
